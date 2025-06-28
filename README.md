@@ -111,7 +111,7 @@ All these endpoints require:
 Authorization: Bearer <access_token>
 ```
 
-### 🧾 Holdings - `GET /stock/holdings?user_id=1`
+### 🧾 Holdings - `GET /stock/holdings`
 
 Example Response:
 ```json
@@ -127,7 +127,7 @@ Example Response:
 
 ---
 
-### 📈 Positions - `GET /stock/positions?user_id=1`
+### 📈 Positions - `GET /stock/positions`
 
 Example Response:
 ```json
@@ -143,7 +143,7 @@ Example Response:
 
 ---
 
-### 📋 Orders - `GET /stock/orders?user_id=1`
+### 📋 Orders - `GET /stock/orders`
 
 Example Response:
 ```json
