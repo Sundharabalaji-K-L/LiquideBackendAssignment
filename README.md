@@ -172,7 +172,7 @@ Example Response:
 ```if needed to execute from docker container```
 
 ```bash
-docker exec -it app bash
+docker exec -it <your-container-name> bash
 
 then run:
 pytest
