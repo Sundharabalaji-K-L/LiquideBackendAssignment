@@ -79,8 +79,6 @@ app/
    JWT_ALGORITHM=HS256
    JWT_ACCESS_TOKEN_EXPIRES_MINUTES=10
    JWT_REFRESH_TOKEN_EXPIRES_DAYS=7
-   
-   DEBUG=False
    ```
 
 5. **Database Setup**
