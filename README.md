@@ -101,6 +101,7 @@ docker-compose down
 ```json
 {
   "access_token": "your.jwt.token",
+  "refresh_token": "your.jwt.refresh.token"
   "token_type": "bearer"
 }
 ```
