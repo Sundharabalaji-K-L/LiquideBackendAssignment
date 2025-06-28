@@ -33,11 +33,17 @@ app/
 │   └── stock.py         # Stock business logic with circuit breaker
 ├── routers/
 │   ├── auth.py          # Authentication endpoints
-│   └── stock.py         # Stock-related endpoints
+│   └── stock.py         # Stock-related endpoints          
 ├── config.py            # Application configuration
 ├── dependencies.py      # FastAPI dependencies
-├── main.py             # Application entry point
-└── seeds.py            # Database seeding
+├── main.py              # Application entry point
+└── seeds.py             # Database seeding
+├── tests/
+│   ├── __init__.py      # makes this a Python package
+│   ├── conftest.py      # test setup (DB, mock services, etc.)
+│   ├── auth_test.py     # tests for /auth endpoints
+│   └── stock_test.py    # tests for /stock endpoints
+
 ```
 
 ---
