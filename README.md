@@ -162,11 +162,6 @@ Example Response:
 
 ## 🧪 Running Tests
 
-
-```if we want to run the python tests from local environment```
-```bash
-pytest
-```
 ```if needed to execute from docker container```
 
 ```bash
@@ -176,7 +171,3 @@ then run:
 pytest
 ```
 
-```
-NOTE : Incase the mysql connection fails, please switch DB_PORT=3306 to DB_PORT=3307,
-in both docker-compose.yml file , .env file. 
-```
